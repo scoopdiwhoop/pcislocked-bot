@@ -12,7 +12,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
-    activity = discord.Game(name="https://discord.gg/VEbndky - v92 pushed at 24/11/2020 11:01")
+    activity = discord.Game(name="Bota bir şey mi eklemek istiyorsun? Git kendin ekle amk: https://github.com/pcislocked/pcislocked-bot - v93 pushed at 25/11/2020 00:17")
     await client.change_presence(status=discord.Status.idle, activity=activity)
     for guild in client.guilds:
         if guild.name == GUILD:
